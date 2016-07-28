@@ -1,0 +1,175 @@
+@import url(../bootstrap/bootstrap.css);
+body {
+  font-family: tahoma; }
+
+#mail {
+  background: #e5eef0;
+  font-size: 13px;
+  color: #93a1a7; }
+  #mail p {
+    line-height: 48px; }
+  #mail .right {
+    float: right; }
+    #mail .right li {
+      list-style-type: none;
+      float: left;
+      padding: 0 32px;
+      line-height: 48px; }
+
+.menu {
+  --height: 76px;
+  float: right; }
+  .menu li {
+    list-style-type: none;
+    float: left;
+    line-height: 76px; }
+    .menu li a {
+      text-decoration: none;
+      color: #93a1a7;
+      line-height: 48px;
+      padding: 5px 25px; }
+      .menu li a:hover {
+        border-radius: 20px;
+        color: white;
+        background-color: #29C2E1; }
+
+#navbar h1 {
+  line-height: 76px; }
+
+#image {
+  background-color: #8D8D8D;
+  height: 310px;
+  color: white;
+  text-align: center; }
+  #image h1 {
+    font-size: 48px;
+    letter-spacing: 5px;
+    font-weight: 700; }
+  #image p {
+    font-size: 18px;
+    font-weight: bolder; }
+  #image .text {
+    margin: 90px 0; }
+
+#dream h1, h4 {
+  margin-left: 15px; }
+
+#dream h1 {
+  margin-top: 100px; }
+
+#number .col-md-3 {
+  margin-top: 75px;
+  border-top: 1px solid #AAB7BD; }
+  #number .col-md-3 .image, #number .col-md-3 .paraqraf {
+    float: left;
+    margin: 75px 15px 75px 15px; }
+
+#team {
+  height: 675px;
+  background-color: #E5EFF1; }
+  #team .row .teem {
+    margin-left: 30px; }
+    #team .row .teem h1 {
+      margin-top: 100px;
+      font-weight: 700; }
+  #team .row .box {
+    width: 265px;
+    height: 400px;
+    float: left;
+    margin: 15px; }
+    #team .row .box .image {
+      background-color: #8D8D8D;
+      text-align: center;
+      line-height: 270px;
+      color: white;
+      font-weight: bolder;
+      font-size: 40px; }
+    #team .row .box .paraqraf {
+      background-color: white;
+      height: 130px;
+      padding: 30px;
+      /*	p:first-child{
+      	margin-top:30px;
+      	}*/ }
+      #team .row .box .paraqraf p:nth-child(2) {
+        color: #F79B38; }
+
+#features .some {
+  padding-left: 30px;
+  padding-top: 100px;
+  padding-bottom: 60px; }
+  #features .some h2 {
+    font-weight: 700; }
+  #features .some p {
+    font-weight: bold; }
+#features .col-md-4 {
+  padding-bottom: 32px; }
+#features .buton {
+  background-color: #29C2E1;
+  color: white;
+  height: 40px;
+  width: 165px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 20px; }
+  #features .buton p {
+    padding: 10px 0; }
+
+#free {
+  margin-bottom: 100px; }
+  #free .one {
+    margin-top: 100px;
+    padding-top: 100px;
+    border-top: 1px solid #AAB7BD; }
+  #free .row {
+    text-align: center; }
+  #free .mavi, #free .sari {
+    border-radius: 20px;
+    width: 140px;
+    line-height: 40px;
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    font-weight: bold; }
+  #free .mavi {
+    background-color: #29C2E1; }
+  #free .sari {
+    background-color: #F79B38; }
+
+#contact {
+  padding: 80px 0;
+  --background: url("../images/sol.png") left bottom no-repeat;
+  /*	img{
+  	position: relative;
+  	top: 200px;
+  }*/ }
+  #contact .container {
+    position: relative;
+    padding-bottom: 100px; }
+  #contact ul {
+    list-style-type: none;
+    color: #8D8D8D; }
+    #contact ul li {
+      line-height: 40px; }
+    #contact ul span {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 30px; }
+  #contact .top {
+    margin-top: 40px; }
+  #contact .inp input {
+    height: 45px;
+    width: 220px;
+    float: left; }
+  #contact .search {
+    width: 45px;
+    height: 45px;
+    background-color: #29C2E1;
+    color: white;
+    float: left; }
+  #contact .abs img {
+    width: 200px;
+    position: absolute;
+    bottom: 0; }
+
+/*# sourceMappingURL=style.css.map */

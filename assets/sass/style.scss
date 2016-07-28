@@ -1,0 +1,18 @@
+body{
+
+  font-family: tahoma;
+}
+
+@import '../bootstrap/bootstrap.css';
+@import '_variables.scss';
+@import 'about/_mail.scss';
+@import 'about/_navbar.scss';
+@import 'about/_image.scss';
+@import 'about/_dream.scss';
+@import 'about/_number.scss';
+@import 'about/_team.scss';
+@import 'about/_features.scss';
+@import 'about/_free.scss';
+@import 'about/_contact.scss';
+@import 'about/_footer.scss';
+

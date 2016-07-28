@@ -1,0 +1,29 @@
+#free{
+	margin-bottom:100px;
+	.one{
+		margin-top: 100px;
+		padding-top:100px;
+		border-top:1px solid $aciqboz;
+	}
+	.row{
+		text-align:center;
+
+	}
+	.mavi,.sari{
+		border-radius: 20px;
+		width: 140px;
+		line-height: 40px;
+		display: inline-block;
+		margin:10px;
+		color:white;
+		font-weight: bold;
+	}
+	.mavi{
+		background-color: $goy;
+	}
+
+	.sari{
+		background-color: $narinci;
+	}
+
+}

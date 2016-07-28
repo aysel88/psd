@@ -1,0 +1,21 @@
+#mail{
+	background: #e5eef0;
+	font-size: 13px;
+	color:#93a1a7;
+		p{
+		line-height: 48px;
+		
+	}
+	.right {
+
+		float:right;
+
+		li {
+			list-style-type: none;
+			float:left;
+			padding:0 32px;
+			line-height: 48px;
+		}
+	}
+
+}
